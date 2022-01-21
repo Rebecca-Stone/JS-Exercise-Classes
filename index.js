@@ -285,6 +285,21 @@ console.log(sean.debugsCode(rebecca, 'JavaScript'));
       + If the student's grade is above a 70% let them graduate! Otherwise go back to grading their assignments to increase their score.
 */
 
+// Student.grades = Math.floor((Math.random()*100)+1);
+
+// Instructor.grading = function(student){
+//   let plusORminus = Math.floor(Math.random());
+//   function score(){
+//     if(plusORminus >= .5){
+//       return - Math.floor((Math.random()*100)+1);
+//     }else{
+//       return + Math.floor((Math.random()*100)+1);
+//     }
+//   }
+//   return `${this.name} gave ${Student.name} a ${Student.grades + score}`;
+// }
+  
+// console.log(dan.grading(rebecca));
 
 //End of Challenge
 /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
